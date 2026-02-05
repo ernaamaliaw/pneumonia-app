@@ -24,7 +24,7 @@ st.markdown("---")
 # LOAD MODEL
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model(inception_with_t_model.h5")
+    return tf.keras.models.load_model("inception_with_t_model.h5")
 
 model = load_model()
 
